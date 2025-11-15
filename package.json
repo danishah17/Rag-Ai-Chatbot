@@ -1,0 +1,22 @@
+{
+	"name": "rag-ai-tutorial",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.47.0"
+	},
+	"dependencies": {
+		"@anthropic-ai/sdk": "^0.69.0",
+		"@langchain/textsplitters": "^1.0.0",
+		"@mistralai/mistralai": "^1.10.0",
+		"hono": "^4.10.6"
+	}
+}
