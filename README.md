@@ -2,6 +2,11 @@
 
 A sophisticated Retrieval-Augmented Generation (RAG) AI chatbot built on Cloudflare Workers, featuring personalized assistance, conversation history, and automatic knowledge extraction from URLs.
 
+## You can explore my personalised Chatbot using the following link:
+
+## Link: https://danish-assistant.syeddanishhussain230.workers.dev/
+
+
 ## 🌟 Features
 
 - **RAG (Retrieval-Augmented Generation)**: Intelligent context retrieval from a vector database
@@ -248,15 +253,6 @@ The `RAGWorkflow` class handles document processing:
 - Use `console.log()` for debugging (visible in Wrangler dev console)
 - Check Cloudflare Workers dashboard for production logs
 - Use Wrangler's observability features (enabled in config)
-
-## 📚 Resources
-
-- [Cloudflare Workers Documentation](https://developers.cloudflare.com/workers/)
-- [Cloudflare D1 Documentation](https://developers.cloudflare.com/d1/)
-- [Cloudflare Vectorize Documentation](https://developers.cloudflare.com/vectorize/)
-- [Cloudflare AI Documentation](https://developers.cloudflare.com/workers-ai/)
-- [Hono Framework](https://hono.dev/)
-- [Mistral AI Documentation](https://docs.mistral.ai/)
 
 ## 🤝 Contributing
 
